@@ -49,3 +49,44 @@
         }
     }
 }
+
+// About
+.about{
+    padding: 1rem 6rem;
+    .about_bar{
+        margin: 0 3rem;
+        display: flex;
+        padding: 1.3rem 0 1rem 0;
+        justify-content: space-between;
+        border-top: .7px solid rgb(130, 130, 130);
+        border-bottom: .7px solid rgb(130, 130, 130);
+        border-width: 100%;
+        li{
+            display: inline;
+        }
+    }
+    .about_body_text{
+        margin-top: 5rem;
+        .text_center{
+            text-align: center;
+            padding-bottom: 3rem;
+            .big_text{
+                font-size: 3rem;
+                font-weight: 800;
+            }
+        }
+        .about_contbox{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 2rem;
+            .contbox_item{
+                text-align: center;
+                h3{
+                    padding: .7rem 0 .5rem;
+                }
+            }
+        }
+        
+    }
+    
+}

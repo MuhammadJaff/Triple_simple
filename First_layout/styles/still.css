@@ -70,4 +70,56 @@
   border-radius: .2rem;
   border: none;
 }
+
+.about {
+  padding: 1rem 6rem;
+}
+
+.about .about_bar {
+  margin: 0 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.3rem 0 1rem 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 0.7px solid #828282;
+  border-bottom: 0.7px solid #828282;
+  border-width: 100%;
+}
+
+.about .about_bar li {
+  display: inline;
+}
+
+.about .about_body_text {
+  margin-top: 5rem;
+}
+
+.about .about_body_text .text_center {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.about .about_body_text .text_center .big_text {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.about .about_body_text .about_contbox {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-gap: 2rem;
+}
+
+.about .about_body_text .about_contbox .contbox_item {
+  text-align: center;
+}
+
+.about .about_body_text .about_contbox .contbox_item h3 {
+  padding: .7rem 0 .5rem;
+}
 /*# sourceMappingURL=still.css.map */
