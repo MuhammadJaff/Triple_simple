@@ -72,7 +72,7 @@
 }
 
 .about {
-  padding: 1rem 6rem;
+  padding: 1rem 6rem 4rem;
 }
 
 .about .about_bar {
@@ -105,6 +105,7 @@
 .about .about_body_text .text_center .big_text {
   font-size: 3rem;
   font-weight: 800;
+  padding-bottom: 1rem;
 }
 
 .about .about_body_text .about_contbox {
@@ -121,5 +122,74 @@
 
 .about .about_body_text .about_contbox .contbox_item h3 {
   padding: .7rem 0 .5rem;
+}
+
+.product {
+  padding: 4rem 10rem;
+  background-color: #D5FAFC;
+}
+
+.product .product_box_block {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-gap: 2rem;
+}
+
+.product .product_box_block .product_left h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  width: 450px;
+  text-align: right;
+  margin-top: -5rem;
+  z-index: 1;
+}
+
+.product .product_box_block .product_left .inspire {
+  margin: .5rem 0 0 6.3rem;
+  font-size: 1.2rem;
+}
+
+.product .product_box_block .product_left .hubspot {
+  margin-top: 1.5rem;
+  width: 350px;
+  float: right;
+  font-size: 1.2rem;
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.product .product_box_block .product_right .airbnb_block {
+  margin-top: 6rem;
+  padding: 2rem;
+  background-color: white;
+  width: 450px;
+}
+
+.product .product_box_block .product_right .mybook {
+  background-color: white;
+  padding: 2rem;
+  margin-top: 2rem;
+  width: 350px;
+}
+
+.cite_name {
+  font-weight: bold !important;
+  margin-top: 1.5rem;
+}
+
+.cite_proff {
+  font-size: .85rem !important;
+}
+
+.three_blocks {
+  padding-top: 1.5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-gap: 1rem;
+  font-size: 1.2rem;
 }
 /*# sourceMappingURL=still.css.map */

@@ -52,7 +52,7 @@
 
 // About
 .about{
-    padding: 1rem 6rem;
+    padding: 1rem 6rem 4rem;
     .about_bar{
         margin: 0 3rem;
         display: flex;
@@ -73,6 +73,7 @@
             .big_text{
                 font-size: 3rem;
                 font-weight: 800;
+                padding-bottom: 1rem;
             }
         }
         .about_contbox{
@@ -87,6 +88,69 @@
             }
         }
         
-    }
-    
+    }  
 }
+// Products
+.product{
+    padding: 4rem 10rem;
+    background-color: #D5FAFC;
+    .product_box_block{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 2rem;
+        .product_left{
+                h2{
+                    font-size: 3rem;
+                    font-weight: 800;
+                    width: 450px;
+                    text-align: right;
+                    margin-top: -5rem;
+                    z-index: 1;
+                }
+                .inspire{
+                    margin: .5rem 0 0 6.3rem;
+                    font-size: 1.2rem;
+                }
+                .hubspot{
+                    margin-top: 1.5rem;
+                    width: 350px;
+                    float: right;
+                    font-size: 1.2rem;
+                    background-color: #fff;
+                    padding: 2rem;
+                }
+        }
+
+        .product_right{    
+            .airbnb_block{
+                margin-top: 6rem; 
+                padding:2rem;
+                background-color: white;
+                width: 450px;
+            }
+            .mybook{
+                background-color: white;
+                padding: 2rem;
+                margin-top: 2rem;
+                width: 350px;
+            }
+        }
+    }
+}
+
+// Independents
+.cite_name{
+    font-weight: bold !important;
+    margin-top: 1.5rem;
+}
+.cite_proff{
+    font-size: .85rem !important;
+}
+.three_blocks{
+    padding-top: 1.5rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1rem;
+    font-size: 1.2rem;
+}
+// Independents
