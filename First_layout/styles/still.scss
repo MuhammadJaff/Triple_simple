@@ -138,6 +138,61 @@
     }
 }
 
+// Pricing
+.pricing{
+    padding: 5rem 10rem;
+    .pricing_header{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        .pricing_text{
+            width: 400px;
+            h2{
+                font-size: 3rem;
+                margin-bottom: .5rem;
+            }
+        }
+        .pricing_nums{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-between;
+            grid-gap: 3rem;
+            .pricing_num_item{
+                display: grid;
+                h4{
+                    font-size: 1.7rem;
+                }
+            }
+        }
+    }
+    .pricing_headline{
+        margin-top: 9rem;
+        display: grid;
+        grid-gap: 4rem;
+        justify-content: space-between;
+        grid-template-columns: auto auto;
+        .pricing_head_text{
+            h3{
+                font-size: 2.5rem;
+                margin-top: 4rem;
+                font-weight: 800;
+                padding: 2rem 0;
+            }
+            p{
+                width: 450px;
+                font-size: 1.2rem;
+            }
+            .get_start{
+                font-size: 1.35rem;
+                color: #8C30F5;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+
+// 
 // Independents
 .cite_name{
     font-weight: bold !important;
