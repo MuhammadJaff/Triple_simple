@@ -175,7 +175,7 @@
 }
 
 .pricing {
-  padding: 5rem 10rem;
+  padding: 5rem 10rem 3rem;
 }
 
 .pricing .pricing_header {
@@ -245,6 +245,70 @@
   font-size: 1.35rem;
   color: #8C30F5;
   font-weight: bold;
+}
+
+.blog {
+  padding: 4rem 10rem;
+}
+
+.blog .blog_header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.blog .blog_header h3 {
+  font-size: 2.5rem;
+}
+
+.blog .blog_header p {
+  font-size: 1.2rem;
+  margin-top: .5rem;
+}
+
+.jobs {
+  padding: 0 10rem;
+  background-color: #2EC5CE;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jobs .jobs_left h2 {
+  font-size: 3rem;
+  width: 540px;
+  margin-top: 4rem;
+}
+
+.jobs .jobs_left .p_text {
+  margin: .5rem 0 3rem;
+  font-size: 1.2rem;
+}
+
+.jobs .jobs_left p {
+  margin: .5rem 0;
+  font-size: 1.2rem;
+}
+
+.jobs .jobs_right {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jobs .jobs_right .mockup2 {
+  margin-top: 5rem;
 }
 
 .cite_name {

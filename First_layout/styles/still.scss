@@ -140,7 +140,7 @@
 
 // Pricing
 .pricing{
-    padding: 5rem 10rem;
+    padding: 5rem 10rem 3rem;
     .pricing_header{
         display: grid;
         grid-template-columns: auto auto;
@@ -191,8 +191,56 @@
     }
 }
 
+// Blog
+.blog{
+    padding: 4rem 10rem;
+    .blog_header{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 2rem;
+        margin-bottom: 3rem;
+        h3{
+            font-size: 2.5rem;
+        }
+        p{
+            font-size: 1.2rem;
+            margin-top: .5rem;
+        }
+    }
+}
 
-// 
+// Jobs
+.jobs{
+    padding: 0 10rem;
+    background-color: #2EC5CE;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    .jobs_left{
+        h2{
+            font-size:3rem;
+            width: 540px;
+            margin-top: 4rem;
+        }
+        .p_text{
+            margin: .5rem 0 3rem;
+            font-size: 1.2rem;
+        }
+        p{
+            margin: .5rem 0;
+            font-size: 1.2rem;
+        }
+    }
+    .jobs_right{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        .mockup2{
+            margin-top: 5rem;
+        }
+    }
+}
+
 // Independents
 .cite_name{
     font-weight: bold !important;
