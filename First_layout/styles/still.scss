@@ -241,6 +241,42 @@
     }
 }
 
+// Footer
+.footer{
+    background-color: #0B0D17;
+    padding: 3.5rem 10rem;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    .footer_left{
+        .foot_nav{
+            li{
+                display: inline;
+                color: white;
+                padding-right: 1.5rem;
+            }
+        }
+        .toppy{
+            padding: 1.5rem 0 .85rem;
+        }
+        .coopy{
+            color: #fff;
+            font-size: .85rem;
+            padding-top: 1.5rem;
+        }
+    }
+    .footer_right{
+        nav{
+            li{
+                list-style-type: none;
+                padding-bottom: 1rem;
+                font-size: 1.2rem;
+                color: white;
+            };
+        }
+    }
+}
+
 // Independents
 .cite_name{
     font-weight: bold !important;

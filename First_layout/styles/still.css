@@ -311,6 +311,41 @@
   margin-top: 5rem;
 }
 
+.footer {
+  background-color: #0B0D17;
+  padding: 3.5rem 10rem;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.footer .footer_left .foot_nav li {
+  display: inline;
+  color: white;
+  padding-right: 1.5rem;
+}
+
+.footer .footer_left .toppy {
+  padding: 1.5rem 0 .85rem;
+}
+
+.footer .footer_left .coopy {
+  color: #fff;
+  font-size: .85rem;
+  padding-top: 1.5rem;
+}
+
+.footer .footer_right nav li {
+  list-style-type: none;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
 .cite_name {
   font-weight: bold !important;
   margin-top: 1.5rem;
