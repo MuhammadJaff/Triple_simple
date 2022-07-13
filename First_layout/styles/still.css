@@ -29,13 +29,17 @@
           justify-content: space-between;
 }
 
-.header .header_menu .header_flex nav .logo {
-  text-align: center;
-}
-
 .header .header_menu .header_flex nav li {
   display: inline;
   padding-right: 2rem;
+}
+
+.header .header_menu .header_flex nav li:hover {
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+  font-size: 110%;
+  text-shadow: 1px 3px 5px #6dc6e9;
 }
 
 .header .header_body {
@@ -122,6 +126,10 @@
 
 .about .about_body_text .about_contbox .contbox_item h3 {
   padding: .7rem 0 .5rem;
+}
+
+.about .about_body_text .about_contbox .contbox_item h3:hover {
+  text-decoration: overline;
 }
 
 .product {
@@ -211,6 +219,13 @@
 .pricing .pricing_header .pricing_nums .pricing_num_item {
   display: -ms-grid;
   display: grid;
+}
+
+.pricing .pricing_header .pricing_nums .pricing_num_item:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
 }
 
 .pricing .pricing_header .pricing_nums .pricing_num_item h4 {
