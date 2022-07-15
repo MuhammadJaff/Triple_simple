@@ -225,6 +225,14 @@
             margin-top: .5rem;
         }
     }
+    .blog_image{
+        width: auto;
+        filter: grayscale(100%);
+        &:hover{
+            transition: all .8s ease-in-out;
+            filter: grayscale(0%);
+        }
+    }
 }
 
 // Jobs
@@ -311,3 +319,5 @@
     font-size: 1.2rem;
 }
 // Independents
+
+@import "./adapt.scss"

@@ -284,6 +284,19 @@
   margin-top: .5rem;
 }
 
+.blog .blog_image {
+  width: auto;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.blog .blog_image:hover {
+  -webkit-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
 .jobs {
   padding: 0 10rem;
   background-color: #2EC5CE;

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,OAAO,CAAA;IACH,OAAO,EAAE,WAAW;IACpB,gBAAgB,EAAE,KAAK;GAC1B",
+    "sources": [
+        "adapt.scss"
+    ],
+    "names": [],
+    "file": "adapt.css"
+}
